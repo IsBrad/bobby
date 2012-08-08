@@ -17,7 +17,7 @@ function bobby(startServers, onProfile) {
     }
     for (key = 0; key < this.serverInfo.length; key++) {
         var score = Math.round(max / this.serverInfo[key][1]);
-        this.serverInfo[key][2] = score
+        this.serverInfo[key][2] = score;
     }
     this.serverLevels = this.serverInfo;
 
